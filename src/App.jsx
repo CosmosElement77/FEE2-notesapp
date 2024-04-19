@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -35,7 +35,6 @@ function App() {
 					{notes.map((e) => (
 						<div className="notes-item">
 							<div style={{ width: "90%" }}>
-								{/* <h4>Title: {e.title}</h4> */}
                 <h5>To Do:</h5>
 								<p>{e.des}</p>
 							</div>
@@ -56,13 +55,6 @@ function App() {
 					))}
 					<div className="add">
 						<h3>Add Notes</h3>
-						{/* <input
-							type="text"
-							id="title"
-							placeHolder="Add title"
-							value={title}
-							onChange={(e) => setTitle(e.target.value)}
-						></input> */}
 						<input
 							type="text"
 							id="description"
@@ -82,25 +74,8 @@ function App() {
 	);
 }
 
-// Dummy data
-const data = [
-	// {
-	// 	key: 0,
-	// 	title: "Html",
-	// 	des: "HyperText MarkUp Language",
-	// },
-	// { key: 1, title: "CSS", des: "StyleSheet" },
-	// {
-	// 	key: 2,
-	// 	title: "JavaScript",
-	// 	des: "Scripting language for web",
-	// },
-	// {
-	// 	key: 3,
-	// 	title: "React",
-	// 	des: "JavaScript framework",
-	// },
-];
+
+const data = [];
 
 export default App;
 
