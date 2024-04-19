@@ -86,7 +86,7 @@ input {
 	border-bottom: 1px solid #ddd;
 	font-size: larger;
 }
-button
+.btn
 {
   color: black;
   background-color: rgb(175, 240, 221);
