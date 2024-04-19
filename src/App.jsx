@@ -47,6 +47,7 @@ function App() {
 									padding: "0 2% 0 2%",
 									color: "black",
 								}}
+								className="btn"
 								onClick={() => remove(e.key)}
 							>
 								X
