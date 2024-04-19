@@ -38,7 +38,7 @@ function App() {
                 <h5>To Do:</h5>
 								<p>{e.des}</p>
 							</div>
-							<button
+							<button className='btn'
 								type="input"
 								style={{
 									fontSize: "20px",
@@ -47,7 +47,6 @@ function App() {
 									padding: "0 2% 0 2%",
 									color: "black",
 								}}
-								className="btn"
 								onClick={() => remove(e.key)}
 							>
 								X
